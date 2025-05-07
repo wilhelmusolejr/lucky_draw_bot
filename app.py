@@ -153,6 +153,7 @@ while True:
     
     lucky_spin()
     close_client()
+    num += 1
 
     if num == 10:
         gotothis(vpn_below, True)
