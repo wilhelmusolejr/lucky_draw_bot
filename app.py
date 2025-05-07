@@ -87,7 +87,7 @@ def open_client():
     working_directory = r"C:\Program Files (x86)\Crossfire PH"
     subprocess.Popen(game_path, cwd=working_directory, shell=True)
 
-    time.sleep(60)
+    time.sleep(100)
 
 # CLOSE CLIENT
 def close_client():
