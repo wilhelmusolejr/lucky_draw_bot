@@ -141,6 +141,8 @@ while True:
             'PASSWORD': account_information["user_password"],
             "IGN": account_information["ign"]
         }
+    else:
+        continue
     
     open_client()
     login(data)
